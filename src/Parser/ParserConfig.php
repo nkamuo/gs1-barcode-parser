@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\GS1Parser\Parser;
+namespace Nkamuo\GS1Parser\Parser;
 
-use Lamoda\GS1Parser\Barcode;
-use Lamoda\GS1Parser\Constants;
+use Nkamuo\GS1Parser\Barcode;
+use Nkamuo\GS1Parser\Constants;
 
 final class ParserConfig
 {

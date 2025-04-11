@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\GS1Parser\Exception;
+namespace Nkamuo\GS1Parser\Exception;
 
 use Throwable;
 

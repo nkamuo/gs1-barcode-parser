@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\GS1Parser\Tests\Parser;
+namespace Nkamuo\GS1Parser\Tests\Parser;
 
-use Lamoda\GS1Parser\Barcode;
-use Lamoda\GS1Parser\Exception\InvalidBarcodeException;
-use Lamoda\GS1Parser\Parser\Parser;
-use Lamoda\GS1Parser\Parser\ParserConfig;
-use Lamoda\GS1Parser\Tests\BarcodeAssert;
+use Nkamuo\GS1Parser\Barcode;
+use Nkamuo\GS1Parser\Exception\InvalidBarcodeException;
+use Nkamuo\GS1Parser\Parser\Parser;
+use Nkamuo\GS1Parser\Parser\ParserConfig;
+use Nkamuo\GS1Parser\Tests\BarcodeAssert;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Lamoda\GS1Parser\Parser\Parser
+ * @covers \Nkamuo\GS1Parser\Parser\Parser
  */
 final class ParserTest extends TestCase
 {

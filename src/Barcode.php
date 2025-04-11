@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\GS1Parser;
+namespace Nkamuo\GS1Parser;
 
 final class Barcode
 {

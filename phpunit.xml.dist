@@ -11,7 +11,7 @@
         <env name="SHELL_VERBOSITY" value="-1" />
     </php>
     <testsuites>
-        <testsuite name="Lamoda GS1 Parser Unit Test Suite">
+        <testsuite name="Nkamuo GS1 Parser Unit Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

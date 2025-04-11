@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\GS1Parser\Tests\Validator;
+namespace Nkamuo\GS1Parser\Tests\Validator;
 
-use Lamoda\GS1Parser\Barcode;
-use Lamoda\GS1Parser\Exception\InvalidBarcodeException;
-use Lamoda\GS1Parser\Parser\ParserInterface;
-use Lamoda\GS1Parser\Validator\ErrorCodes;
-use Lamoda\GS1Parser\Validator\Resolution;
-use Lamoda\GS1Parser\Validator\Validator;
-use Lamoda\GS1Parser\Validator\ValidatorConfig;
+use Nkamuo\GS1Parser\Barcode;
+use Nkamuo\GS1Parser\Exception\InvalidBarcodeException;
+use Nkamuo\GS1Parser\Parser\ParserInterface;
+use Nkamuo\GS1Parser\Validator\ErrorCodes;
+use Nkamuo\GS1Parser\Validator\Resolution;
+use Nkamuo\GS1Parser\Validator\Validator;
+use Nkamuo\GS1Parser\Validator\ValidatorConfig;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Lamoda\GS1Parser\Validator\Validator
+ * @covers \Nkamuo\GS1Parser\Validator\Validator
  */
 final class ValidatorTest extends TestCase
 {

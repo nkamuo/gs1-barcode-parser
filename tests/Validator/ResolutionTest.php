@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\GS1Parser\Tests\Validator;
+namespace Nkamuo\GS1Parser\Tests\Validator;
 
-use Lamoda\GS1Parser\Validator\ErrorCodes;
-use Lamoda\GS1Parser\Validator\Resolution;
+use Nkamuo\GS1Parser\Validator\ErrorCodes;
+use Nkamuo\GS1Parser\Validator\Resolution;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Lamoda\GS1Parser\Validator\Resolution
+ * @covers \Nkamuo\GS1Parser\Validator\Resolution
  */
 final class ResolutionTest extends TestCase
 {

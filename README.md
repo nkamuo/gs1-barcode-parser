@@ -1,10 +1,10 @@
-Lamoda GS1 Barcode parser and validator
+Nkamuo GS1 Barcode parser and validator
 =======================================
 
-[![Build Status](https://travis-ci.org/lamoda/gs1-barcode-parser.svg?branch=master)](https://travis-ci.org/lamoda/gs1-barcode-parser)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/lamoda/gs1-barcode-parser/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/lamoda/gs1-barcode-parser/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/lamoda/gs1-barcode-parser/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/lamoda/gs1-barcode-parser/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/lamoda/gs1-barcode-parser/badges/build.png?b=master)](https://scrutinizer-ci.com/g/lamoda/gs1-barcode-parser/build-status/master)
+[![Build Status](https://travis-ci.org/nkamuo/gs1-barcode-parser.svg?branch=master)](https://travis-ci.org/nkamuo/gs1-barcode-parser)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nkamuo/gs1-barcode-parser/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nkamuo/gs1-barcode-parser/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/nkamuo/gs1-barcode-parser/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/nkamuo/gs1-barcode-parser/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/nkamuo/gs1-barcode-parser/badges/build.png?b=master)](https://scrutinizer-ci.com/g/nkamuo/gs1-barcode-parser/build-status/master)
 
 
 ## Installation
@@ -12,7 +12,7 @@ Lamoda GS1 Barcode parser and validator
 ### Composer
 
 ```sh
-composer require lamoda/gs1-barcode-parser
+composer require nkamuo/gs1-barcode-parser
 ```
 
 ## Description
@@ -29,8 +29,8 @@ Library also provides general purpose validator for barcode's content.
 ```php
 <?php
 
-$config = new \Lamoda\GS1Parser\Parser\ParserConfig();
-$parser = new \Lamoda\GS1Parser\Parser\Parser($config);
+$config = new \Nkamuo\GS1Parser\Parser\ParserConfig();
+$parser = new \Nkamuo\GS1Parser\Parser\Parser($config);
 
 $value = ']d201034531200000111719112510ABCD1234';
 
@@ -43,11 +43,11 @@ $barcode = $parser->parse($value);
 ```php
 <?php
 
-$parserConfig = new \Lamoda\GS1Parser\Parser\ParserConfig();
-$parser = new \Lamoda\GS1Parser\Parser\Parser($parserConfig);
+$parserConfig = new \Nkamuo\GS1Parser\Parser\ParserConfig();
+$parser = new \Nkamuo\GS1Parser\Parser\Parser($parserConfig);
 
-$validatorConfig = new \Lamoda\GS1Parser\Validator\ValidatorConfig();
-$validator = new \Lamoda\GS1Parser\Validator\Validator($parser, $validatorConfig);
+$validatorConfig = new \Nkamuo\GS1Parser\Validator\ValidatorConfig();
+$validator = new \Nkamuo\GS1Parser\Validator\Validator($parser, $validatorConfig);
 
 $value = ']d201034531200000111719112510ABCD1234';
 

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\GS1Parser\Tests\Parser;
+namespace Nkamuo\GS1Parser\Tests\Parser;
 
-use Lamoda\GS1Parser\Validator\ValidatorConfig;
+use Nkamuo\GS1Parser\Validator\ValidatorConfig;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Lamoda\GS1Parser\Validator\ValidatorConfig
+ * @covers \Nkamuo\GS1Parser\Validator\ValidatorConfig
  */
 final class ValidatorConfigTest extends TestCase
 {

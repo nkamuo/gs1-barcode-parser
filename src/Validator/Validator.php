@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\GS1Parser\Validator;
+namespace Nkamuo\GS1Parser\Validator;
 
-use Lamoda\GS1Parser\Exception\InvalidBarcodeException;
-use Lamoda\GS1Parser\Parser\ParserInterface;
+use Nkamuo\GS1Parser\Exception\InvalidBarcodeException;
+use Nkamuo\GS1Parser\Parser\ParserInterface;
 
 final class Validator implements ValidatorInterface
 {

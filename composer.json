@@ -1,12 +1,12 @@
 {
-    "name": "lamoda/gs1-barcode-parser",
+    "name": "nkamuo/gs1-barcode-parser",
     "description": "GS1 Barcode parser and validator compatible with official GS1 documentation",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Lamoda developers",
-            "homepage": "https://tech.lamoda.ru/"
+            "name": "Nkamuo developers",
+            "homepage": "https://tech.nkamuo.ru/"
         }
     ],
     "minimum-stability": "stable",
@@ -15,12 +15,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Lamoda\\GS1Parser\\": "src/"
+            "Nkamuo\\GS1Parser\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lamoda\\GS1Parser\\Tests\\": "tests/"
+            "Nkamuo\\GS1Parser\\Tests\\": "tests/"
         }
     },
     "config": {

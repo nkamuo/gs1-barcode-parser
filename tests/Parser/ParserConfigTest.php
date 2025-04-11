@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\GS1Parser\Tests\Parser;
+namespace Nkamuo\GS1Parser\Tests\Parser;
 
-use Lamoda\GS1Parser\Barcode;
-use Lamoda\GS1Parser\Constants;
-use Lamoda\GS1Parser\Parser\ParserConfig;
+use Nkamuo\GS1Parser\Barcode;
+use Nkamuo\GS1Parser\Constants;
+use Nkamuo\GS1Parser\Parser\ParserConfig;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Lamoda\GS1Parser\Parser\ParserConfig
+ * @covers \Nkamuo\GS1Parser\Parser\ParserConfig
  */
 final class ParserConfigTest extends TestCase
 {

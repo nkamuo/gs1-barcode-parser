@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\GS1Parser\Validator;
+namespace Nkamuo\GS1Parser\Validator;
 
 final class ErrorCodes
 {

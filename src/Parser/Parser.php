@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\GS1Parser\Parser;
+namespace Nkamuo\GS1Parser\Parser;
 
-use Lamoda\GS1Parser\Barcode;
-use Lamoda\GS1Parser\Exception\InvalidBarcodeException;
+use Nkamuo\GS1Parser\Barcode;
+use Nkamuo\GS1Parser\Exception\InvalidBarcodeException;
 
 /**
  * Performs barcode parsing according to
